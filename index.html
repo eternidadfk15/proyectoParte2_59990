@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGH GASTORNOMIA</title>
+    <link rel="icon" type="image/png" href="./assets/cghLogo.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Carrito</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- mein: productos -->
+    <main class="container">
+        <section id="products">
+            <h2>Nuestros Productos</h2>
+            <div class="product-grid" id="product-list">
+                <!-- las cards se agregan aquí dinamicamente -->
+            </div>
+        </section>
+
+        <!-- sección del carrito -->
+        <section id="cart-section" style="display: none;">
+            <h2>Tu Carrito</h2>
+            <ul id="cart-items"></ul>
+            <p id="total-price">Total: $0</p>
+            <button onclick="emptyCart()">Vaciar Carrito</button>
+            <p id="empty-message">Tu carrito está vacío.</p>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <p>Contacto: cghgastronomia@gmail.com | Teléfono: 2235948148</p>
+    </footer>
+
+    <!-- script -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
