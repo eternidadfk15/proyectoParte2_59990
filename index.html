@@ -3,48 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CGH GASTORNOMIA</title>
-    <link rel="icon" type="image/png" href="./assets/cghLogo.png">
+    <title>Carrito de Compras</title>
+    <!-- estilos CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- fuente google poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <!-- navbar -->
+    <!-- header con navbar -->
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <div class="navbar-logo"><img src="./assets/cghLogo.png" alt="Logo Marca"></div>
+            <ul class="navbar-links">
                 <li><a href="#">Inicio</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/carrito.html">Carrito</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
             </ul>
+            <div id="cartIcon" class="cart-icon">
+                <img src="./assets/cartLogo.png" alt="Carrito">
+            </div>
         </nav>
     </header>
 
-    <!-- mein: productos -->
-    <main class="container">
-        <section id="products">
-            <h2>Nuestros Productos</h2>
-            <div class="product-grid" id="product-list">
-                <!-- las cards se agregan aquí dinamicamente -->
-            </div>
-        </section>
-
-        <!-- sección del carrito -->
-        <section id="cart-section" style="display: none;">
-            <h2>Tu Carrito</h2>
-            <ul id="cart-items"></ul>
-            <p id="total-price">Total: $0</p>
-            <button onclick="emptyCart()">Vaciar Carrito</button>
-            <p id="empty-message">Tu carrito está vacío.</p>
-        </section>
+    <!-- Main para los productos -->
+    <main>
+        <section id="productGrid" class="product-grid"></section>
     </main>
 
-    <!-- footer -->
-    <footer>
-        <p>Contacto: cghgastronomia@gmail.com | Teléfono: 2235948148</p>
-    </footer>
+   
 
-    <!-- script -->
+    <!-- Carrito de  compras -->
+    <div id="cartContainer" class="cart-container">
+        <h2>Carrito de Compras</h2>
+        <div id="cartItems" class="cart-items"></div>
+        <div class="cart-footer">
+            <p>Total: $<span id="totalPrice">0.00</span></p>
+            <button id="clearCart" class="clear-cart-btn">Vaciar</button>
+            <button id="closeCart" class="close-cart-btn">Cerrar</button>
+        </div>
+    </div>
+ <!-- Footer -->
+ <footer>
+    <p>© 2024 Nioclas Fabito (El PROFE UN CRACK Y EL TUTO IGUAL). Todos los derechos reservados.</p>
+</footer>
+    <!-- Script t -->
     <script src="./js/index.js"></script>
+    <!-- Librería SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

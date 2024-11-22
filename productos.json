@@ -1,0 +1,114 @@
+[
+  {
+      "id": "1",
+      "name": "Bifera Negra 27cm",
+      "description": "Antiadherente y mango rebatible",
+      "price": 59000,
+      "image": "assets/imagenes/BiferaNegraMadera.jpg"
+  },
+  {
+      "id": "2",
+      "name": "Fuente rectangular 42cm",
+      "description": "Cuerpo hierro fundido y rayada para desengrasar",
+      "price": 119000,
+      "image": "assets/imagenes/fuenteRectangularFundicion.jpg"
+  },
+  {
+      "id": "3",
+      "name": "Olla Dark Granite 20cm",
+      "description": "Cuerpo de aluminio fundido antiadherente con tapa vidrio",
+      "price": 89000,
+      "image": "assets/imagenes/ollaDarkGranite.jpg"
+  },
+  {
+      "id": "4",
+      "name": "Olla Dark Granite 26cm",
+      "description": "Cuerpo de aluminio fundido antiadherente con tapa vidrio.",
+      "price": 96000,
+      "image": "assets/imagenes/ollaDarkGranite33.jpg"
+  },
+  {
+      "id": "5",
+      "name": "Plancha Doble grande",
+      "description": "Cuerpo hierro fundido y rayada para desengrasar",
+      "price": 119000,
+      "image": "assets/imagenes/planchaDobleUso.jpg"
+  },
+  {
+      "id": "6",
+      "name": "Provoletera 7 porciones",
+      "description": "cuerpo hierro fundido apta parrilla",
+      "price": 21000,
+      "image": "assets/imagenes/provoletera7cavidades.jpg"
+  },
+  {
+      "id": "7",
+      "name": "Provoletera 16cm",
+      "description": "cuerpo hierro fundido apta parrilla",
+      "price": 19000,
+      "image": "assets/imagenes/provoleteraEntera18.jpg"
+  },
+  {
+      "id": "8",
+      "name": "Sarten 28cm con tapa Dark Granite",
+      "description": "Cuerpo aluminio fundido antiadherente con mango simil madera",
+      "price": 56000,
+      "image": "assets/imagenes/sartenDarkGranite28.jpg"
+  },
+  {
+      "id": "9",
+      "name": "Sarten 24cm Dark Granite",
+      "description": "Cuerpo aluminio fundido antiadherente con mango simil madera",
+      "price": 36000,
+      "image": "assets/imagenes/sartenGranite24cm.jpg"
+  },
+  {
+      "id": "10",
+      "name": "Sarten 26cm simil madera Granite",
+      "description": "Cuerpo aluminio fundido antiadherente con mango simil madera",
+      "price": 44000,
+      "image": "assets/imagenes/sartenSiliconaGranite.jpg"
+  },
+  {
+      "id": "11",
+      "name": "Set 3 piezas bateria Blanco",
+      "description": "Sarten + Cacerola + Cazo Enamel Cream",
+      "price": 197000,
+      "image": "assets/imagenes/setCocina3EnamelCream.jpg"
+  },
+  {
+      "id": "12",
+      "name": "Set 3 piezas bateria Negro",
+      "description": "Sarten + Cacerola + Cazo Enamel Cream",
+      "price": 216000,
+      "image": "assets/imagenes/setOllaNegrasx3.jpg"
+  },
+  {
+      "id": "13",
+      "name": "Wok acero inoxidable 30cm",
+      "description": "Acero inolvidable 18/10 epico pro cocina todisho",
+      "price": 75900,
+      "image": "assets/imagenes/wokAcero30.jpg"
+  },
+  {
+      "id": "14",
+      "name": "Wok acero inoxidable 30cm",
+      "description": "Wok mega fachero cocina todo pero en color negro re piola.",
+      "price": 77900,
+      "image": "assets/imagenes/wokNegroChampagne.jpg"
+  },
+  {
+      "id": "15",
+      "name": "Wok acero antiadherente 30cm",
+      "description": "Este es la rial clika no se pega nada papa y encima acero inolvidable",
+      "price": 89000,
+      "image": "assets/imagenes/wokAceroAntiadherente.jpg"
+  },
+  {
+      "id": "16",
+      "name": "Wokeishon M/Madera30cm ",
+      "description": "saltea todo cocina todo de acero y encima madera",
+      "price": 94900,
+      "image": "assets/imagenes/wokNegroMadera.jpg"
+  }
+]
